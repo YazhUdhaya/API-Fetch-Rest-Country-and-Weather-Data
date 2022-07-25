@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('cli.jpg');
+    background-size:cover;
+  
+}
+
+.describe{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.card-body{
+    text-align: center;
+    font-size:18px;
+    color: white;
+}
+.card-body div{
+    margin-bottom: 10px;
+}
+
+ .card-header{
+    background-color: rgb(1,0,1);
+}
+.card-title{
+    text-align: center;
+    color: white;
+}
+.card-img-top{
+    width:94%;
+    align-items: center;
+    height:30%;
+}
+.card{
+    background-image: linear-gradient(to right, rgb(206,192,157) ,rgb(92,104,97));
+   
+    
+}
+.btn-primary{
+    background-image: linear-gradient(to right, rgb(206,192,157) ,rgb(92,104,97));
+    border: 1px solid white;
+}
+.popup{
+    width:400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    position: fixed;
+    top:10%;
+    left:35%;
+    right:35%;
+    bottom:20%;
+    /* transform: translate(50%,50%) scale(1); */
+    text-align: center;
+    padding: 30px 30px;
+    color:#333;
+    background-color:rgba(0,0,0,0.9);
+}
+
+.popup-body{
+    padding:10px;
+    margin:10px;
+}
+.popup-title{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 10px;
+    color: white;
+}
+.popup-body img{
+    margin: 15px;
+    height:100px;
+    width:80%;
+}
+.popup-body p{
+    font-size: 15px;
+    font-weight:400;
+    color: white;
+   
+}
+.button{
+    border-radius: 30px;
+    height: 40px;
+    width:50px;
+    background-color:rgba(0,0,0,0.9);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
